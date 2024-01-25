@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    box-sizing: content-box;
+    color: var(--text);
+}
+
+:root{
+    --main:#004D3D;
+    --text:#FFF6E7;
+    --sub:#86B649;
+}
+
+
+#mission{
+    background-image: url(section-bg.png);
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+
+::-webkit-Scrollbar{
+    width: 5px; 
+	background: rgb(68, 68, 68);
+}
+::-webkit-Scrollbar-thumb{
+	border-radius: 10px;
+	background: #ffffff;
+	box-shadow: inset 0 0 20px #ffffff;
+}
+::-webkit-Scrollbar-track{
+	
+	border-radius: 10px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  
+.progress-bar {
+    height: 8px;
+    width: 0%;
+    background-color: #86B649 !important;
+  }
+
+.carousel{
+    top:20px;
+  }
+
+.carousel > .carousel-inner > .carousel-item > img{
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.t_img{
+    border-radius: 5%;
+    width: 50%;
+    height: 25%;
+}
+
+.t_img:hover{
+    box-shadow: 0 4px 8px 0 #2a9e5a, 0 6px 20px 0 #2a9e5a;
+    transition: 0.25s ease-in-out;
+}
+
+.myText{
+    color: var(--text);
+}
+
+
+.faq_head {
+    font-size: 1.05rem;
+    padding: 8px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    width: 90%;
+    display: inline-block;
+    color: var(--text);
+    background-color: var(--main);
+    overflow-x: hidden;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.movie_head i{
+    float: right;
+}
+
+.faq_text span{
+    color: gold;
+}
+
+#faqs{
+    color: var(--text);
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fa-sort-desc{
+    float: right;
+}
+
+h1{
+    color: var(--text);
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .submit{
+        text-align: center;
+    }
+
+    .fcol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .name{
+        margin-bottom: 40px;
+    }
+
+    .fa-envelope{
+        margin-right: 10px;
+    }
+
+    .media{
+        margin-left: -30px;
+    }
+  }
+
+  hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 85%;               
+    background-color: rgb(104, 103, 103);
+    height: 1px;
+}
+
+
